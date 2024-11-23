@@ -203,7 +203,7 @@ app.post('/api/actividades', (req, res) => {
 });
 
 // Inicia el servidor
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
     console.log(`Servidor en funcionamiento en http://localhost:${PORT}`);
 });
